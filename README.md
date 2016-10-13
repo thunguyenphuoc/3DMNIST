@@ -1,13 +1,12 @@
-3DMNIST
-=======
+# 3DMNIST
 
 A 3D version of the [MNIST database of handwritten digits](http://yann.lecun.com/exdb/mnist/)
 
 ![3D MNIST](data/3Dmnist.png)
 
-# CONTENT
+## CONTENT
 
-The dataset includes 5000(train), 1000(valid) and 1000(test) [3D point clouds](https://en.wikipedia.org/wiki/Point_cloud) stored in [HDF5 file format](https://support.hdfgroup.org/HDF5/whatishdf5.html).
+The dataset includes 5000 (train), 1000 (valid) and 1000 (test) [3D point clouds](https://en.wikipedia.org/wiki/Point_cloud) stored in [HDF5 file format](https://support.hdfgroup.org/HDF5/whatishdf5.html).
 
 The files can be found in the `data` subfolder, containing 5000(train_small), 1000(valid_small) and 1000(test_small) [HDF5 groups](https://support.hdfgroup.org/HDF5/Tutor/fileorg.html)
 
@@ -22,7 +21,7 @@ In the [3DMNIST notebook](http://nbviewer.jupyter.org/github/daavoo/3DMNIST/blob
 
 You can use the code in the notebook to generate a bigger 3D dataset from the original.
 
-# CONTRIBUTIONS
+## CONTRIBUTIONS
 
 In the `contrib` subfolder you can find examples on how to read/write the HDF5 files in Python and on how to generate global/local features to train predictive models.
 
